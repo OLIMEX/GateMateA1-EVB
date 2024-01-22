@@ -1,0 +1,46 @@
+Cologne Chip GateMate FPGA Tools
+Release Notes
+
+Last updated: 2023-10-18
+
+## 2023-10.003
+ * Automatic BUFG mapping based on fanout, if more than 4 BUFG in netlist.
+ * Symmetric placer improvements.
+ * SerDes: Added the full set of primitive parameters
+ * Fixed IOSEL clock inversion.
+ * Fixed block RAM configuration.
+ * Updated delay files.
+
+## 2023-08.001
+ * Fixed DS4 to ICOMP mapping.
+ * Enable SERDES_CFG_EN bit during configuration for regfile access from CPE.
+ * Fixed missing C_PX_I bit for CPE multipliers.
+
+## 2023-07.002
+ * Verilog generator: Fixed output of similar signal and bus names.
+
+## 2023-07.001
+ * Fixed LVDS buffer parameter parsing.
+ * Maintain capitalization in module names.
+ * Fixed specific inverter in CPE configuration.
+ * Added prioritized Block RAM placement to prevent IO congestions.
+ * Updated delay files.
+
+## 2023-06.001
+ * Fixed parsing of 'UNDEFINED' pin names.
+ * Prevent implicit declarations in cpelib.
+
+## 2023-05.001
+ * Add support for the CC_FIFO_40K primitive.
+ * Improved Block RAM placement.
+ * Fixed Block RAM / GPIO congestions.
+ * Updated delay files.
+
+## 2023-04.003
+ * Fixed verilog parser to interpret ":" in signal names.
+ * Revised Block RAM counter for utiliziation report.
+ * Updated delay files.
+
+## 2023-02.001
+ * Add support for register initialization during configuration.
+ * Improved utilitation reports.
