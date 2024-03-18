@@ -1,0 +1,3 @@
+GateMateA1-EVB shipped before March 1st 2024 are affected by high ripple voltage on VDD_PLL which create problems.
+Small batch of GateMateA1-EVB was assembled with R5 value of 1.3 ohm which do not provide enough filtering of the VDD_PLL power supply.
+Increasing R5 to 22 ohm solves the issue. Around 40 boards were shipped to customers before this issue was reported and fixed. All boards shipped after February 29th are fixed and do not have such problem.
