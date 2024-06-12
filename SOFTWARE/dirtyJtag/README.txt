@@ -1,6 +1,9 @@
 dirtyJtag.uf2 is the binary we load on every GateMateA1-EVB,
 it allows to program the board via tools lile openFPGALoad
 
+Notice! By default, on a brand-new device you don't need to perform the steps below,
+they are listed just as information or in case you overwrote the pico-dirtyJtag!
+
 If you have overwritten it, you can find the binary here to restore it.
 
 1. To download dirtyJtag.uf2, first put RP2040 in bootloader mode:
