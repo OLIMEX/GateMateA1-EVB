@@ -9,7 +9,8 @@ Press and hold button RP-BOOT1, press and release RP-RST1, release button RP-BOO
 
 2. New storage device will appear. 
 
-3. Copy-paste dirtyJtag.uf2 on the storage device, this will make the storage disappear and after few moments DirtyJTAG device would appear.
+3. Copy-paste dirtyJtag.uf2 on the storage device, this will make the storage disappear 
+and after few moments DirtyJTAG device would appear.
 
 4. All done. Now you can use the openFPGAload.
 
@@ -21,6 +22,5 @@ Which itself is made after DirtyJTAG project:
 
 https://github.com/dirtyjtag/DirtyJTAG
 
-This binary inherits any license by the original projects,
-make sure to respect the licensing of the pico-dirtyJtag and
-DirtyJTAG projects.
+This binary inherits any license by the original projects, make sure to respect
+the licensing of the pico-dirtyJtag and DirtyJTAG projects.
