@@ -1,5 +1,5 @@
 dirtyJtag.uf2 is the binary we load on every GateMateA1-EVB,
-it allows to program the board via tools lile openFPGALoad
+it allows to program the board via tools like openFPGALoad
 
 Notice! By default, on a brand-new device you don't need to perform the steps below,
 they are listed just as information or in case you overwrote the pico-dirtyJtag!
