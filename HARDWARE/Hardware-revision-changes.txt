@@ -1,0 +1,3 @@
+Hardware revision C
+=====
+1. L3,L4,L5,L6 and L7 changed to 1.0uH/4.2A/DCR=35mR/20%/2.00x1.60x1.00mm/L2016(PIM201610-1R0MTS00)
