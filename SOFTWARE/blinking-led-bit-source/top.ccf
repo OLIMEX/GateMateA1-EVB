@@ -1,0 +1,6 @@
+# cc-pll.ccf 15.2.24/16.2.24 2nd & 3rd ver PDR
+Pin_in "CLK0" Loc = "IO_SB_A8" | SCHMITT_TRIGGER=true;  #10MHz osc
+Pin_out "locked" Loc = "IO_EB_A0";  #CCEVB J2 pin 33, Oli BANK_EB1 pin 19
+
+Pin_out "CCEVB_LED" Loc = "IO_EB_B1";  #Oli BANK_EB1 pin 18
+Pin_out "OLIMEX_LED" Loc = "IO_SB_B6";  #CCEVB J10 pin 18
