@@ -15,7 +15,7 @@ always @(posedge clk) begin
 end
 
 CC_PLL #(.REF_CLK("10.0"), .OUT_CLK("16.7857"), .PERF_MD("ECONOMY"),
-    .LOW_JITTER(1), .LOCK.REQ(0), .CLK270_DOUB(0), .CLK180_DOUB(0),
+         .LOW_JITTER(1), .LOCK_REQ(0), .CLK270_DOUB(0), .CLK180_DOUB(0),
     .CI_FILTER_CONST(2), .CP_FILTER_CONST(4))
   pll(.CLK_REF(CLK0), .CLK0(clk), .USR_LOCKED_STDY_RST(1'b0),
     .USR_PLL_LOCKED_STDY(), .USR_PLL_LOCKED(locked),
